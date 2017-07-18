@@ -1,0 +1,66 @@
+
+.wrapper{ padding:0; }
+
+
+
+/* HEADER */
+.top_header .search_form input{ min-width:367px; }
+
+
+
+/* PROMO */
+.intro .project_title::before{ left:calc(-100% + 7px); }
+.intro .project_title::after{ right:calc(-100% + 22px); }
+
+
+
+/* DEPUTY SEARCH */
+.deputy_search .action{ width:355px; float:right; margin:110px 0 0 20px; }
+.deputy_search .location{ margin:0; }
+.action_container[data-step="1"] .svg_container{ padding:105px 0 0; }
+.action_container[data-step="2"] .svg_container{ padding:70px 0 0; }
+
+
+
+/* NEWS */
+#all_news{ right:0px; }
+.news_list .item{ max-width:300px; }
+.news_list .item.main .img{ width:70%; }
+.news_list .item:not(.main) + .item{ margin-left:30px; }
+.dossier .latest_news{ padding-bottom:80px; }
+
+
+
+ /* QA */
+.qa_list dt{ padding:40px 20% 40px 30px; }
+.qa_list dd{ padding:40px 30px; }
+
+
+
+/* DOSSIER */
+.same_companies{ padding-top:65px; }
+
+
+
+/* UPLOAD */
+.analiz .latest_news  .wrapper{ padding:0; }
+.analiz .section_title{ margin:67px auto 0; }
+
+
+/* VIEWER */
+#contact_us_btn{ right:132px; }
+.viewer_container{ right:132px; }
+
+
+
+/* FOOTER */
+.footer .socials > span{ display:inline-block; }
+.footer .socials{ padding:0 0 0 95px }
+
+
+
+/* LARGE SCREENS */
+@media all and (min-width:1286px){
+	.home .top_header .wrapper{ padding:0 }
+	
+}

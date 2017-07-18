@@ -1,0 +1,611 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Досьє</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" href="images/icons/favicon.png" />
+		<link rel="shortcut icon" href="images/icons/favicon.ico" />
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/libs/font-awesome.min.css">
+		
+		<link rel="stylesheet" href="css/libs/normalize.min.css">        
+        <link rel="stylesheet" href="css/main.css">
+		<link type="text/css" rel="stylesheet" media="only all and (max-width: 767px)" href="css/mobile.css">
+		<link type="text/css" rel="stylesheet" media="only all and (min-width: 768px)" href="css/768.css">
+		<link type="text/css" rel="stylesheet" media="only all and (min-width: 1140px)" href="css/1140.css">
+		
+        <script src="js/libs/modernizr-2.8.3.min.js"></script>
+    </head>
+	
+    <body class="dossier">
+        <div class="top_header">            
+			<div class="wrapper">
+				<a href="index.html" class="logo"></a>					
+				<div id="search_mobile" class="btn">ПОШУК</div>
+				<form action="" method="" class="search_form">
+					<input type="search" placeholder="Введіть ім’я особи, назву або ЄДРПОУ компанії..." />
+					<button class="btn">ПОШУК</button>
+					<div id="search_close"></div>
+				</form>
+				<div class="navigation">
+					<div id="nav_mobile" class="btn">menu</div>
+					<nav>
+						<a href="news.html" class="active">Новини</a>
+						<a href="qa.html">Питання та відповіді</a>
+						<a href="analiz_1.html">Автоматичний аналіз</a>
+					</nav>
+				</div>				
+			</div>	
+        </div>
+		<section class="intro">
+			<header class="wrapper">
+				<div class="dossier_avatar"><img src="images/content/dossier_avatar.jpg" /></div>
+				<div class="description">
+					<h1 class="dossier_title"><span>Костюшко</span> Олег Петрович</h1>
+					<p>місто <a href="#">Київ</a>, <a href="#">Київська міська рада</a>
+					</p>
+					<div class="upd">Оновленно 05.12.2016</a>
+				</div>				
+			</header>	
+		</section>
+		
+		
+		<section class="information cl">
+			<div class="wrapper cl">
+				<aside class="helpful">
+					<div class="action">
+						<a class="upload" href="#"><span></span></a>
+						<a class="print" href="#"><span></span></a>
+						<a class="mail" href="mailto:#"><span></span></a>
+						<a class="share" href="#"><span></span></a>
+					</div>
+					<div class="additional">
+						<p>Досьє пов’язанних осіб:</p>
+						<ul>
+							<li>
+								<a href="#"><img src="images/content/dossier_list_1.jpg" /></a>
+								<div class="hover_info"><a href="#"><span>Костюшко</span> A. B.</a><p>партнер, 1965 р.н</p></div>
+							</li>
+							<li>
+								<a href="#"><img src="images/content/dossier_list_2.jpg" /></a>
+								<div class="hover_info"><a href="#"><span>Костюшко 2</span> A. B.</a><p>партнер, 1965 р.н</p></div>
+							</li>
+							<li>
+								<a href="#"><img src="images/content/dossier_list_3.jpg" /></a>
+								<div class="hover_info"><a href="#"><span>Костюшко 3</span> A. B.</a><p>партнер, 1965 р.н</p></div>
+							</li>
+							<li>
+								<a href="#"><img src="images/content/dossier_list_4.jpg" /></a>
+								<div class="hover_info"><a href="#"><span>Костюшко 4</span> A. B.</a><p>партнер, 1965 р.н</p></div>
+							</li>
+							<li class="all"><a href="#">+12</a></li>
+						</ul>
+					</div>
+					<div class="cloud_tags">
+						<a href="#">Київрада</a><a href="#">Солідарність</a><a href="#">Переробка відходів</a><a href="#">Будівництво</a><a href="#">Фармацевтика</a><a href="#">Харчування</a>
+					</div>
+				</aside>
+				
+				<main id="tabs" class="about">
+					<ul class="tabs_ul cl">
+						<li><a href="#tabs-1">Основні дані</a></li>
+						<li><a href="#tabs-2">Пов’язані компанії</a></li>
+						<li><a href="#tabs-3">Родина</a></li>
+						<li><a href="#tabs-4">Ділові зв'язки</a></li>
+					</ul>
+					
+					<!--- tab 1 --->
+					<div id="tabs-1" class="tab basic_data cl">
+						<div class="col column_half">
+							<div class="label">Дата народження:</div>
+							<div>
+								<p>07 квітня 1977р.</p>
+							</div>	
+							
+							<div class="label">Посада:</div>
+							<div>
+								<p>Депутат Київської міської ради VII скликання</p>
+								<p>Секретар Постійної комісії Київської міської ради з питань житлово-комунального господарства та паливно-енергетичного комплексу</p>
+							</div>
+							<div class="label">Фракційна / партійна приналежність:</div>
+							<div>								
+								<p>фракція <a href="#">«Солідарність»</a></p>
+							</div>
+						</div>
+						<div class="col column_half">
+							<div class="label">Сфера інтересів:</div>
+							<div>
+								<p>10 32. Вивіз та переробка відходів</p>
+								<p>11 22. Вторинна переробка сировини</p>
+								<p>23 20. Житлово-комунальне обслуговування</p>
+								<p>10 00. Обслуговування транспортних засобів</p>
+								<p>12 12. Надання медичних послуг</p>
+								<p>72 02. Фармацевтика</p>
+								<p>18 19. Сфера харчування</p>
+								<p>10 10. Сільське господарство</p>
+								<p>45 75. Будівництво</p>								
+							</div>
+						</div>
+						<div class="declaration">
+							<a href="#" class="item">
+								<p>Декларація за 2016 рік</p>
+								<div class="preview"></div>
+							</a>
+							<a href="#" class="item">
+								<p>Декларація за 2015 рік</p>
+								<div class="preview"></div>
+							</a>
+							<a href="#" class="item">
+								<p>Декларація за 2014 рік</p>
+								<div class="preview"></div>
+							</a>
+							<a href="#" class="item">
+								<p>Декларація за 2013 рік</p>
+								<div class="preview"></div>
+							</a>
+						</div>						
+					</div>
+					
+					<!--- tab 2 --->
+					<div id="tabs-2" class="tab related_companies cl">
+						<div class="company cl">
+							<div class="col col_num"><span class="num">01</span></div>
+							<div class="body">
+								<div class="label">Назва компанії:</div>
+								<div><p><a href="#">ТОВ «Будматеріали-вторресурси»</a></p></div>
+								<div class="label">Діяльність:</div>
+								<div>
+									<ul>
+										<li>виробництво тари з пластмас</li>
+										<li>торгівля, оренда транспорту і майна</li>
+									</ul>
+								</div>
+							</div>
+							<div class="info">
+								<div class="label">ЄДРПОУ:</div>
+								<div><p>30550615</p></div>
+								<div class="label">Посада:</div>
+								<div><p class="dinbl">Засновник компанії <div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></p></div>
+							</div>
+						</div>
+						<div class="company cl">
+							<div class="col col_num"><span class="num">02</span></div>
+							<div class="body">
+								<div class="label">Назва компанії:</div>
+								<div><p><a href="company.html">ТОВ «Крамар-Рісайклінг»</a></p></div>
+								<div class="label">Діяльність:</div>
+								<div>
+									<ul>
+										<li>збирання відходів</li>
+									</ul>
+								</div>
+							</div>
+							<div class="info">
+								<div class="label">ЄДРПОУ:</div>
+								<div><p>32068819</p></div>
+								<div class="label">Посада:</div>
+								<div><p class="dinbl">Засновник компанії <div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></p></div>
+							</div>
+						</div>
+						<div class="company cl">
+							<div class="col col_num"><span class="num">03</span></div>
+							<div class="body">
+								<div class="label">Назва компанії:</div>
+								<div><p><a href="company.html">ТОВ «Київспецексплуатація»</a></p></div>
+								<div class="label">Діяльність:</div>
+								<div>
+									<ul>
+										<li>електромонтажні та будівельні роботи</li>
+										<li>фінансове посередництво</li>
+									</ul>
+								</div>
+							</div>
+							<div class="info">
+								<div class="label">ЄДРПОУ:</div>
+								<div><p>35378338</p></div>
+								<div class="label">Посада:</div>
+								<div><p class="dinbl">Засновник компанії <div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></p></div>
+							</div>
+						</div>
+						<div class="company cl">
+							<div class="col col_num"><span class="num">04</span></div>
+							<div class="body">
+								<div class="label">Назва компанії:</div>
+								<div><p><a href="company.html">ТОВ «Ен Гранд»</a></p></div>
+								<div class="label">Діяльність:</div>
+								<div>
+									<ul>
+										<li>оренда майна</li>
+										<li>торгівля медичними товарами</li>
+									</ul>
+								</div>
+							</div>
+							<div class="info">
+								<div class="label">ЄДРПОУ:</div>
+								<div><p>21530736</p></div>
+								<div class="label">Посада:</div>
+								<div><p class="dinbl">Засновник компанії <div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></p></div>
+							</div>
+						</div>
+					</div>
+					
+					<!--- tab 3 --->
+					<div id="tabs-3" class="tab related_people cl">
+						
+						<!--- 1 --->
+						<div class="human has_toggle cl">
+							<div class="col col_img"><a href="#"><img src="images/content/human_1.jpg" /></a></div>
+							<div class="desc">
+								<h3><a href="#"><span>Костюшко</span> Ірина Вікторівна</a><div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></h3>
+								<div><p>дружина, 1965 р.н.</p></div>
+								<div class="label">Діяльність:</div>
+								<div>
+									<p>депутат Житомирської обласної ради від ББП «Солідарність»</p>
+									<p>голова Постійної комісії з питань агропромислового комплексу, земельних відносин та розвитку села.</p>
+								</div>
+							</div>
+							<div class="toggle"></div>
+							
+							<!-- drop -->
+							<div class="related_companies">
+								<div class="company cl">
+									<div class="col col_num"><span class="num">01</span></div>
+									<div class="body">
+										<div class="label">Назва компанії:</div>
+										<div><p><a href="#">ТОВ «Будматеріали-вторресурси»</a></p></div>
+										<div class="label">Діяльність:</div>
+										<div>
+											<ul>
+												<li>виробництво тари з пластмас</li>
+												<li>торгівля, оренда транспорту і майна</li>
+											</ul>
+										</div>
+									</div>
+									<div class="info">
+										<div class="label">ЄДРПОУ:</div>
+										<div><p>30550615</p></div>
+										<div class="label">Посада:</div>
+										<div><p class="dinbl">Засновник компанії <div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></p></div>
+									</div>
+								</div>
+								<div class="company cl">
+									<div class="col col_num"><span class="num">02</span></div>
+									<div class="body">
+										<div class="label">Назва компанії:</div>
+										<div><p><a href="company.html">ТОВ «Крамар-Рісайклінг»</a></p></div>
+										<div class="label">Діяльність:</div>
+										<div>
+											<ul>
+												<li>збирання відходів</li>
+											</ul>
+										</div>
+									</div>
+									<div class="info">
+										<div class="label">ЄДРПОУ:</div>
+										<div><p>32068819</p></div>
+										<div class="label">Посада:</div>
+										<div><p class="dinbl">Засновник компанії <div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></p></div>
+									</div>
+								</div>
+								<div class="company cl">
+									<div class="col col_num"><span class="num">03</span></div>
+									<div class="body">
+										<div class="label">Назва компанії:</div>
+										<div><p><a href="company.html">ТОВ «Київспецексплуатація»</a></p></div>
+										<div class="label">Діяльність:</div>
+										<div>
+											<ul>
+												<li>електромонтажні та будівельні роботи</li>
+												<li>фінансове посередництво</li>
+											</ul>
+										</div>
+									</div>
+									<div class="info">
+										<div class="label">ЄДРПОУ:</div>
+										<div><p>35378338</p></div>
+										<div class="label">Посада:</div>
+										<div><p class="dinbl">Засновник компанії <div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!--- 2 --->
+						<div class="human has_toggle cl">
+							<div class="col col_img"><a href="#"><img src="images/no_human.jpg" /></a></div>
+							<div class="desc">
+								<h3><a href="#"><span>Костюшко</span> Максим Петрович</a><div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></h3>
+								<div><p>брат, 1979 р.н.</p></div>
+							</div>
+							<div class="toggle"></div>
+							
+							<!-- drop -->
+							<div class="related_companies">
+								<div class="company cl">
+									<div class="col col_num"><span class="num">01</span></div>
+									<div class="body">
+										<div class="label">Назва компанії:</div>
+										<div><p><a href="company.html">ТОВ «Крамар-Рісайклінг»</a></p></div>
+										<div class="label">Діяльність:</div>
+										<div>
+											<ul>
+												<li>збирання відходів</li>
+											</ul>
+										</div>
+									</div>
+									<div class="info">
+										<div class="label">ЄДРПОУ:</div>
+										<div><p>32068819</p></div>
+										<div class="label">Посада:</div>
+										<div><p class="dinbl">Засновник компанії <div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!--- 3 --->
+						<div class="human cl">
+							<div class="col col_img"><div><img src="images/no_human.jpg" /></div></div>
+							<div class="desc">
+								<h3><span>Костюшко</span> Лев Олегович<div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></h3>
+								<div><p>син, 2001 р.н.</p></div>
+							</div>
+							<div class="toggle"></div>
+							<div class="related_companies"></div>
+						</div>
+						
+						<!--- 4 --->
+						<div class="human cl">
+							<div class="col col_img"><a href="#"><img src="images/no_human.jpg" /></a></div>
+							<div class="desc">
+								<h3><a href="#">Каріна</a><div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></h3>
+								<div><p>донька дружини від першого шлюбу, 1989/1990 р.н.</p></div>
+							</div>
+							<div class="toggle"></div>
+							<div class="related_companies"></div>
+						</div>
+					</div>
+					
+					
+					<!--- tab 4 --->
+					<div id="tabs-4" class="tab business cl">
+						<!--- 1 --->
+						<div class="human has_toggle cl">
+							<div class="col col_img"><a href="#"><img src="images/content/human_2.jpg" /></a></div>
+							<div class="desc">
+								<h3><a href="#"><span>Степанчук</span> Сергій Олександрович</a><div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></h3>
+								<div><p>підприємець</p></div>
+								<div class="label">Діяльність:</div>
+								<div>
+									<p>директор ТОВ «Будматеріали-вторресурси»</p>
+									<p>співзасновник ТОВ «Крамар-ЕКО»</p>
+								</div>
+							</div>
+							<div class="toggle"></div>
+							<div class="top_t">Інші пов’язані компанії партнера</div>
+							
+							<!-- drop -->
+							<div class="related_companies">								
+								<div class="company cl">
+									<div class="col col_num"><span class="num">01</span></div>
+									<div class="body">
+										<div class="label">Назва компанії:</div>
+										<div><p><a href="#">ТОВ «Будматеріали-вторресурси»</a></p></div>
+										<div class="label">Діяльність:</div>
+										<div>
+											<ul>
+												<li>виробництво тари з пластмас</li>
+												<li>торгівля, оренда транспорту і майна</li>
+											</ul>
+										</div>
+									</div>
+									<div class="info">
+										<div class="label">ЄДРПОУ:</div>
+										<div><p>30550615</p></div>
+										<div class="label">Посада:</div>
+										<div><p class="dinbl">Засновник компанії <div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!--- 2 --->
+						<div class="human has_toggle cl">
+							<div class="col col_img"><a href="#"><img src="images/no_human.jpg" /></a></div>
+							<div class="desc">
+								<h3><a href="#"><span>Шумаков </span> Володимир Олександрович</a><div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></h3>
+								<div><p>підприємець</p></div>
+							</div>
+							<div class="toggle"></div>
+							<div class="top_t">Інші пов’язані компанії партнера</div>
+							
+							<!-- drop -->
+							<div class="related_companies">
+								<div class="company cl">
+									<div class="col col_num"><span class="num">01</span></div>
+									<div class="body">
+										<div class="label">Назва компанії:</div>
+										<div><p><a href="company.html">ТОВ «Крамар-Рісайклінг»</a></p></div>
+										<div class="label">Діяльність:</div>
+										<div>
+											<ul>
+												<li>збирання відходів</li>
+											</ul>
+										</div>
+									</div>
+									<div class="info">
+										<div class="label">ЄДРПОУ:</div>
+										<div><p>32068819</p></div>
+										<div class="label">Посада:</div>
+										<div><p class="dinbl">Засновник компанії <div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!--- 3 --->
+						<div class="human cl">
+							<div class="col col_img"><div><img src="images/no_human.jpg" /></div></div>
+							<div class="desc">
+								<h3><span>Борисенко </span> Микола Миколайович<div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></h3>
+								<div><p>підприємець</p></div>
+							</div>
+							<div class="toggle"></div>
+							<div class="related_companies"></div>
+						</div>
+						
+						<!--- 4 --->
+						<div class="human cl">
+							<div class="col col_img"><a href="#"><img src="images/no_human.jpg" /></a></div>
+							<div class="desc">
+								<h3><a href="#"><span>Радзішевська</span/> Каріна Петрівна </a><div class="in"><span class="ico">i</span><div class="tooltip">джерело: витяг з ЄДР</div></div></h3>
+								<div><p>підприємець, донька від першого шлюбу (?)</p></div>
+							</div>
+							<div class="toggle"></div>
+							<div class="related_companies"></div>
+						</div>
+					</div>
+				</main>
+			
+			</div>
+		</section>
+		
+		<!--- Realted search --->
+		<section class="related_search clearfix">
+			<div class="wrapper">
+				<h2 class="title left"><span>Можливо ви шукали</span></h2>
+				<div class="related_list cl">
+					<div class="item">
+						<a href="#" class="img"><img src="images/content/may_s_1.jpg" alt="" /></a>
+						<div class="body">
+							<h4><a href="#"><span>КОЖУШКО</span> Віталій Сергійович</a></h4>
+							<p>Народний депутат, 42 роки</p>
+							<p>місто Київ, Київська міська рада</p>
+						</div>
+					</div>				
+					<div class="item">
+						<a href="#" class="img"><img src="images/content/may_s_2.jpg" alt="" /></a>
+						<div class="body">
+							<h4><a href="#"><span>КОРЮШКО</span> Сергій Олександрович</a></h4>
+							<p>Народний депутат, 37 років</p>
+							<p>місто Київ, Київська міська рада</p>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#" class="img"><img src="images/content/may_s_3.jpg" alt="" /></a>
+						<div class="body">
+							<h4><a href="#"><span>КОСТЮШЕНКО</span> Юрій Семенович</a></h4>
+							<p>Народний депутат, 35 років</p>
+							<p>місто Київ, Київська міська рада</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!--- Latest news --->
+		<section class="latest_news clearfix">
+			<div class="wrapper">
+				<h2 class="title left"><span>Останні новини</span></h2>
+				<p class="title_desc">Завжди будьте в курсі свіжих антикорупційних новин</p>
+				<a href="#" id="all_news" class="btn">Всі новини</a>
+				<div class="news_list cl">
+					<div class="item">
+						<a href="#" class="img"><img src="images/content/img_2.jpg" alt="" /></a>
+						<div class="body">
+							<div class="date">12:30, 26 Липня</div>
+							<h4><a href="#">В Одесі потужний потік води пробив асфальт: постраждали автомобілі</a></h4>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#" class="img"><img src="images/content/img_3.jpg" alt="" /></a>
+						<div class="body">
+							<div class="date">11:25, 26 Липня</div>
+							<h4><a href="#">Український дует виграв чемпіонат світу з брейк-дансу</a></h4>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#" class="img"><img src="images/content/img_4.jpg" alt="" /></a>
+						<div class="body">
+							<div class="date">10:00, 26 Липня</div>
+							<h4><a href="#">Порошенко і Гройсман побажали удачі української збірної на Євро-2016</a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+
+
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="Приховані інтереси" /></a>
+					<p class="copy">Приховані інтереси © 2016</p>
+				</div>
+				<div class="socials">
+					<span>Ми в соцмережах:</span>
+					<ul>
+						<li class="fb"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="tw"><a href=""><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+						<li class="vk"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>	
+				<nav>
+                    <a href="news.thml">Новини</a>
+                    <a href="qa.html">Питання та відповіді</a>
+                    <a href="analiz_1.html">Автоматичний аналіз</a>
+                </nav>
+            </div>
+        </footer>
+		
+		<!--- contact us --->
+		<div id="contact_us_btn" class="btn">Надіслати інформацію</div>
+		<div id="contact_us_form" class="viewer_wrapper wrapper_signup">
+			<div class="overlay"></div>
+			<div class="viewer_container">
+				<div class="viewer_hide"></div>
+				<p>Якщо у вас є інформація про конфлікт інтересів депутата або чиновника, або пов’язані з ним компанії чи особи, будь ласка, повідомте нас:</p>
+				<form action="" method="POST" class="signup_form">
+					<div class="line">
+						<div class="label name"></div>
+						<input type="text" placeholder="ПІБ та посада фігуранта">
+					</div>
+					<div class="line">
+						<input type="text" placeholder="Інформація">
+					</div>
+					<div class="line">
+						<input type="text" placeholder="Підтвердження ">
+					</div>
+					<div class="line">
+						<input type="text" placeholder="Ваші контакти">
+					</div>
+					<div class="line">
+						<div class="label"></div>
+						<input type="checkbox" name="guarantee" id="guarantee"><label for="guarantee">Я гарантую правдивість наданої інформації</label>
+					</div>
+
+					<input type="submit" value="Надіслати" class="btn">
+					<!-- <span class="info_msg error">Не всі поля заповнені!</span> -->
+				</form>				
+			</div>
+		</div>	
+
+        <script src="js/libs/jquery-1.11.2.min.js"></script>
+        <script src="js/libs/jquery-ui.min.js"></script>
+		<script src="js/main.js"></script>
+    </body>
+</html>
